@@ -1,0 +1,112 @@
+.task1{
+    background-color: red;
+    border: red solid;
+    border-radius: 15px;
+}
+
+.task1 h1{
+    color: white;
+}
+
+.task1 p{
+    color: white;
+}
+
+.task2{
+    background-color: rgb(255, 123, 0);
+    border: rgba(255, 123, 0) solid;
+    border-radius: 15px;
+}
+
+.task2 h3{
+    color: white;
+}
+
+.task2 p{
+    color: white;
+}
+
+.task3{
+    background-color: rgba(255, 196, 0, 0.897);
+    border: rgba(255, 196, 0, 0.897) solid;
+    border-radius: 15px;
+}
+
+.task3 h2{
+    color: white;
+}
+
+.task3 p{
+    color: white;
+}
+
+
+.task4{
+    background-color: rgba(166, 255, 0, 0.884);
+    border: rgb(166, 255, 0, 0.884) solid;
+    border-radius: 15px;
+}
+
+.task4 h4{
+    color: white;
+}
+
+.task4 p{
+    color: white;
+}
+
+.task5{
+    background-color: rgb(0, 255, 0);
+    border: rgb(0, 255, 0) solid;
+    border-radius: 15px;
+}
+
+.task5 h2{
+    color: white;
+}
+
+.task5 p{
+    color: white;
+}
+
+.task6{
+    background-color: rgb(0, 174, 255);
+    border: rgb(0, 174, 255) solid;
+    border-radius: 15px;
+}
+
+.task6 h2{
+    color: white;
+}
+
+.task6 p{
+    color: white;
+}
+
+.task7{
+    background-color: rgb(98, 0, 255);
+    border: rgb(98, 0, 255) solid;
+    border-radius: 15px;
+}
+
+.task7 h1{
+    color: white;
+}
+
+.task7 p{
+    color: white;
+}
+
+.task8{
+    background-color: rgb(255, 0, 234);
+    border: rgb(255, 0, 234) solid;
+    border-radius: 15px;
+}
+
+.task8 h1{
+    color: white;
+}
+
+.task8 p{
+    color: white;
+}
