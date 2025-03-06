@@ -27,7 +27,7 @@ const Fardin = () => (
 // const Message = () => <h1>Lorem Lorem Lorem Lorem Lorem Lorem Lorem </h1>
 
 
-import React from 'react';
+
 
 const UserProfile = () => (
   <>
@@ -55,7 +55,7 @@ const ProfilePic = () => (
 
 
 
-import React from 'react';
+
 
 const Weather = () => (
   <>
@@ -78,7 +78,7 @@ const Alert = () => <p>Weather Alert: No alerts</p>;
 
 
 
-import React from 'react';
+
 
 const Book = () => (
   <>
@@ -100,7 +100,7 @@ function BookInfo() {
 const Availability = () => <p>Status: Available</p>;
 
 
-import React from 'react';
+
 
 const Car = () => (
   <>
@@ -122,7 +122,7 @@ function CarDetails() {
 const Feature = () => <p>Feature: Autopilot</p>;
 
 
-import React from 'react';
+
 
 const Movie = () => (
   <>
@@ -144,7 +144,7 @@ function MovieDetails() {
 const Review = () => <p>Review: Must Watch!</p>;
 
 
-import React from 'react';
+
 
 const Country = () => (
   <>
@@ -167,7 +167,7 @@ const Currency = () => <p>Currency: Indian Rupee (INR)</p>;
 
 
 
-import React from 'react';
+
 
 const Food = () => (
   <>
@@ -190,7 +190,7 @@ const Taste = () => <p>Taste: Delicious</p>;
 
 
 
-import React from 'react';
+
 
 const Mobile = () => (
   <>
@@ -213,7 +213,7 @@ const Battery = () => <p>Battery: 4000mAh</p>;
 
 
 
-import React from 'react';
+
 
 const Album = () => (
   <>
@@ -236,7 +236,7 @@ const Song = () => <p>Hit Song: Get Lucky</p>;
 
 
 
-import React from 'react';
+
 
 const Laptop = () => (
   <>
