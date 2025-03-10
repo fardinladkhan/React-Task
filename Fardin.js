@@ -1,3 +1,10 @@
+import React from "react"
+import Product from "./component/Product"
+import Books from "./component/Books";
+import Student from "./component/Student";
+import Movies from "./component/Movies";
+import Gallery from "./component/Gallery";
+
 const Fardin = () => (
     <>
     {/* <Greeting/> */}
@@ -12,14 +19,22 @@ const Fardin = () => (
     <Album/>
     <Laptop/> */}
 
-    <Greeting/>
+    {/* <Greeting/>
     <ProductDisplay/>
     <UserProfile/>
     <StudentDetails/>
     <CarInfo/>
     <JobInfo/>
     <Bio/>
-    <TaskDetails/>
+    <TaskDetails/> */}
+
+    {/* <PersonDetail/> */}
+    <Product/>
+    <Books/>
+    <Student/>
+    <Movies/>
+    <Gallery/>
+
     </>
 )
 
@@ -275,129 +290,198 @@ const Fardin = () => (
 
 
 
-function Greeting() {
-  return <Welcome name='Fardin' age={23} />;
-}
+// function Greeting() {
+//   return <Welcome name='Fardin' age={23} />;
+// }
 
-const Welcome = (props) => {
-  return (
-    <div className="task1">
-      <h1>Hello, {props.name}!</h1>
-      <p>Your age is {props.age}</p>
+// const Welcome = (props) => {
+//   return (
+//     <div className="task1">
+//       <h1>Hello, {props.name}!</h1>
+//       <p>Your age is {props.age}</p>
       
-    </div>
+//     </div>
     
-  );
-};
+//   );
+// };
 
 
 
-function ProductDisplay() {
-  return <Product name='HP Laptop' price={56000} />;
-}
+// function ProductDisplay() {
+//   return <Product name='HP Laptop' price={56000} />;
+// }
 
-const Product = (props) => {
-  return (
-    <div className="task2">
-      <h3>{props.name}</h3>
-      <p>Price: ₹{props.price}</p>
+// const Product = (props) => {
+//   return (
+//     <div className="task2">
+//       <h3>{props.name}</h3>
+//       <p>Price: ₹{props.price}</p>
       
-    </div>
-  );
-};
+//     </div>
+//   );
+// };
 
 
 
-function UserProfile() {
-  return <User username='Fardin Ladkhan' city='Pune' />;
-}
+// function UserProfile() {
+//   return <User username='Fardin Ladkhan' city='Pune' />;
+// }
 
-const User = (props) => {
-  return (
-    <div className="task3">
-      <h2>User: {props.username}</h2>
-      <p>Location: {props.city}</p>
+// const User = (props) => {
+//   return (
+//     <div className="task3">
+//       <h2>User: {props.username}</h2>
+//       <p>Location: {props.city}</p>
       
-    </div>
-  );
-};
+//     </div>
+//   );
+// };
 
 
-function StudentDetails() {
-  return <Student name='Fardin Ladkhan' grade='B+' />;
-}
+// function StudentDetails() {
+//   return <Student name='Fardin Ladkhan' grade='B+' />;
+// }
 
-const Student = (props) => {
-  return (
-    <div className="task4">
-      <h4>{props.name}</h4>
-      <p>Grade: {props.grade}</p>
+// const Student = (props) => {
+//   return (
+//     <div className="task4">
+//       <h4>{props.name}</h4>
+//       <p>Grade: {props.grade}</p>
       
-    </div>
-  );
-};
+//     </div>
+//   );
+// };
 
 
 
-function CarInfo() {
-  return <Car brand='Lamborgini' model='Sian' />;
-}
+// function CarInfo() {
+//   return <Car brand='Lamborgini' model='Sian' />;
+// }
 
-const Car = (props) => {
-  return (
-    <div className="task5">
-      <h2>{props.brand}</h2>
-      <p>Model: {props.model}</p>
+// const Car = (props) => {
+//   return (
+//     <div className="task5">
+//       <h2>{props.brand}</h2>
+//       <p>Model: {props.model}</p>
       
-    </div>
-  );
-};
+//     </div>
+//   );
+// };
 
 
-function JobInfo() {
-  return <Job title='Mern Stack Developer' company='ITPreneur' />;
-}
+// function JobInfo() {
+//   return <Job title='Mern Stack Developer' company='ITPreneur' />;
+// }
 
-const Job = (props) => {
-  return (
-    <div className="task6">
-      <h2>{props.title}</h2>
-      <p>Company: {props.company}</p>
+// const Job = (props) => {
+//   return (
+//     <div className="task6">
+//       <h2>{props.title}</h2>
+//       <p>Company: {props.company}</p>
       
-    </div>
-  );
-};
+//     </div>
+//   );
+// };
 
 
 
-function Bio() {
-  return <Person name='Fardin' hobby='Playing Online Games' />;
-}
+// function Bio() {
+//   return <Person name='Fardin' hobby='Playing Online Games' />;
+// }
 
-const Person = (props) => {
-  return (
-    <div className="task7">
-      <h1>{props.name}</h1>
-      <p>Hobby: {props.hobby}</p>
+// const Person = (props) => {
+//   return (
+//     <div className="task7">
+//       <h1>{props.name}</h1>
+//       <p>Hobby: {props.hobby}</p>
       
-    </div>
-  );
-};
+//     </div>
+//   );
+// };
 
 
-function TaskDetails() {
-  return <Task name='Shopping' status='Pending' />;
-}
+// function TaskDetails() {
+//   return <Task name='Shopping' status='Pending' />;
+// }
 
-const Task = (props) => {
-  return (
-    <div className="task8">
-      <h3>Task: {props.name}</h3>
-      <p>Status: {props.status}</p>
+// const Task = (props) => {
+//   return (
+//     <div className="task8">
+//       <h3>Task: {props.name}</h3>
+//       <p>Status: {props.status}</p>
       
-    </div>
-  );
-};
+//     </div>
+//   );
+// };
 
 
+
+
+// function PersonDetail(){
+//   return <Person name = 'Fardin' like='play cricket' mmr='7k' value='idk' phone='9156644837' />
+// }
+
+
+// const Person = (props) => {
+//   return <>{
+//     console.log(props)
+
+
+//   }
+//   </>
+// }
+
+
+
+
+
+
+// import React from 'react'
+
+// function Azad() {
+//   return <Person name='fkilld' like='play dota 2' mmr='7k' />
+// }
+
+// const Person = (props) => {
+//   console.log(props)
+//   return (
+//     <>
+//       <h1>name:{props.name}</h1>
+//       <h2>like {props.like}</h2>
+//       <h3>mmr : {props.mmr}</h3>
+//     </>
+//   )
+// }
+
+///////////////////////////////////////
+// const Person = (props) => {
+//   const { name, like, mmr } = props
+//   return (
+//     <>
+//       <h1>name:{props.name}</h1>
+//       <h2>like {props.like}</h2>
+//       <h3>mmr : {props.mmr}</h3>
+//       <hr />
+//       with out props
+//       <h1>name:{name}</h1>
+//       <h2>like {like}</h2>
+//       <h3>mmr : {mmr}</h3>
+//     </>
+//   )
+// }
+////////////////////////////////
+// const Person = ({ name, like, mmr, value, phone}) => { 
+//   return (
+//     <>
+     
+    
+//       with out props
+//       <h1>name:{name}</h1>
+//       <h2>like {like}</h2>
+//       <h3>mmr : {mmr}</h3>
+//       <h4>value : {value}</h4>
+//       <h5>phone : {phone}</h5>
+//     </>
+//   )
+// }
 export default Fardin;
